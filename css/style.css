@@ -31,9 +31,15 @@ h1{
     vertical-align: middle;
 }
 
+.container_nav{
+    background-color: white;
+    margin: 30px 25% 5px;
+}
+
 .container{
     background-color: white;
-    margin: 40px 25% 5px 25%;
+    margin: 5px 25% 30px;
+    padding-bottom: 30px;
 }
 
 .nav{
