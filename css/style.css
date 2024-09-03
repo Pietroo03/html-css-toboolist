@@ -58,12 +58,16 @@ h1{
     padding: 5px;
 }
 
-.new_task{
+.tab{
     margin-left: 50px;
 }
 
 .da_title{
     display: inline-block;
+}
+
+.row{
+    margin-bottom: 20px;
 }
 
 
@@ -73,6 +77,10 @@ h1{
     border: 1px solid green;
     border-radius: 50%;
     vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
 }
 
 .task{
@@ -87,6 +95,51 @@ h1{
     font-size: 15px;
     background-color: var(--toboo-editorial);
     border: 2px solid var(--toboo-editorial);
+    border-radius: 13px;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.goals{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    background-color: var(--toboo-goals);
+    border: 2px solid var(--toboo-goals);
+    border-radius: 13px;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.cross{
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.recruiting{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    background-color: var(--toboo-recruiting);
+    border: 2px solid var(--toboo-recruiting);
+    border-radius: 13px;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.mobile{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    background-color: var(--toboo-mobile);
+    border: 2px solid var(--toboo-mobile);
     border-radius: 13px;
     padding: 5px 10px;
     margin-left: 5px;
