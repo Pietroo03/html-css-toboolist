@@ -1,0 +1,31 @@
+:root{
+    --toboo-bg: #f6f8f9;
+    --toboo-task: #14aaf5;
+    --toboo-editorial: #09a9ed;
+    --toboo-goals: #ab5de6;
+    --toboo-recruiting: #2cc6ab;
+    --toboo-mobile: #ff9b00;
+    --toboo-website: #ec4a9d;
+    --toboo-sales: #a3d116;
+}
+
+body{
+    background-color: #f6f8f9;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    line-height: 10px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
