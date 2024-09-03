@@ -1,6 +1,7 @@
 :root{
     --toboo-bg: #f6f8f9;
     --toboo-task: #14aaf5;
+    --toboo-section: #d7dce0;
     --toboo-editorial: #09a9ed;
     --toboo-goals: #ab5de6;
     --toboo-recruiting: #2cc6ab;
@@ -28,4 +29,31 @@ h1{
     display: inline-block;
     text-align: center;
     vertical-align: middle;
+}
+
+#container{
+    background-color: white;
+    margin: 40px 25% 5px 25%;
+}
+
+.nav{
+    display: inline-block;
+}
+
+#task{
+    background-color: #14aaf5;
+    border: 2px solid var(--toboo-task);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#section{
+    color: var(--toboo-section);
+    border: 2px solid var(--toboo-section);
+    border-radius: 5px;
+    padding: 5px;
 }
