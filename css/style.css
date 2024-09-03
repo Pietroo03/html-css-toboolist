@@ -144,3 +144,25 @@ h1{
     padding: 5px 10px;
     margin-left: 5px;
 }
+
+.website{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    background-color: var(--toboo-website);
+    border: 2px solid var(--toboo-website);
+    border-radius: 13px;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.sales{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    background-color: var(--toboo-sales);
+    border: 2px solid var(--toboo-sales);
+    border-radius: 13px;
+    padding: 5px 10px;
+    margin-left: 5px;
+}    
